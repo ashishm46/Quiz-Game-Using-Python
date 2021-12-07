@@ -1,0 +1,240 @@
+{
+    "question": [
+      "Q1. Who is the father of C language?",
+      "Q2. Which of the following is not a valid C variable name?",
+      "Q3. All keywords in C are in ____________",
+      "Q4. What is #include <stdio.h>?",
+      "Q5. Which among the following is the odd one out?",
+      "Q6. putchar(c) function/macro always outputs character c to the _____",
+      "Q7. Choose a correct statement regarding C Comparison Operators.",
+      "Q8. Choose a correct C Statement using IF Conditional Statement.",   
+      "Q9. Which is syntax of for loop?",
+      "Q10.ASCII value of '' A '' is :",
+      "Q11.The expression X=4+2%-8 evaluates to",
+      "Q12.Which of the following is the correct way of maiking comments in C ?",
+      "Q13.__ is the built in multiway decision statement in C",
+      "Q14.If the Boolean expression of if statement evaluates to ________, then the block of code inside the if statement will be executed",
+      "Q15.What is the 16-bit compiler allowable range for integer constants?",
+      "Q16.What is required in each C program?",
+      "Q17.What is a lint? ",
+      "Q18.What is the output of this statement printf('' %d '',(a++))",
+      "Q19.What does this declaration mean? int x:4;",
+      "Q20.How many times will the following loop execute?  for(j = 1; j <= 10; j = j-1)   ",
+      "Q21.The min^m number of comparisons required to determine an integer appears more than n/2 times in a sorted array of n integers is",
+      "Q22.Which of the following correctly declares an array?",
+      "Q23.Which of the following is the correct syntax to send an array as a parameter to function? ",   
+      "Q24.What is the maximum number of arguments that can be passed in a single function? ",
+      "Q25.Which one of the following is correct syntax for opening a file. ",
+      "Q26.If the mode includes b after the initial letter, what does it indicates?",
+      "Q27.What is the return type of malloc() or calloc()",
+      "Q28.Which of the following is true?",
+      "Q29.The number of tokens in the following C statement:-  printf(''i = %d, &i = %x'', i, &i);",
+      "Q30.Choose a correct statement about C String. char ary[] = ''Hello......!'' ;"
+    ],
+    "answer": [
+      3,
+      4,
+      1,
+      3,
+      4,
+      1,
+      4,
+      4,
+      1,
+      3,
+      2,
+      1,
+      2,
+      1,
+      4,
+      2,
+      3,
+      2,
+      3,
+      1,
+      2,
+      1,
+      2,
+      2,
+      1,
+      3,
+      1,
+      2,
+      3,
+      1
+    ],
+    "options": [
+  
+      ["Steve Jobs",
+        "James Gosling",
+        "Dennis Ritchie",
+        "Rasmus Lerdorf"
+    
+      ],
+      ["int number",
+        "float rate",
+        "int variable_count",
+        "int $main"
+      ],
+      ["LowerCase letters",
+        "UpperCase letters",
+        "CamelCase letters",
+        "None of the mentioned"
+      ],
+      [ "File inclusion directive",
+        "Inclusion directive",
+        "Preprocessor directive",
+        "None of the mentioned"
+      ],
+      [ "printf",
+        "fprintf",
+        "putchar",
+        "scanf"
+      ],
+      [ "standard output",
+        "screen",
+        "depends on the compiler",
+        "depends on the standard"
+      ],
+      [ "(x == y) Is x really equal to y. (x != y) Is x not equal to y.",
+        " (x < y) Is x less than y (x > y) Is x greater than y",
+        "(x <= y) Is x less than or equal to y. (x >= y) Is x greater than or equal to y",
+        "All the above"
+      ],
+      ["if( condition )   {   //statements;  }",
+        "if( condition ) { //statements;  } else { //statements; }",
+        "if( condition1 ) {  //statements; } else if( condition2) { //statements; } else { //statements; }",
+        "All Of The Option"
+      ],
+      ["for(intialization; condition; increment/decrement)",
+        "for(increment; expression; condition)",
+        "for(condition; expression; statement)",
+        "for(expression; condition; statement)"
+      ],
+      [ "32",
+        "97",
+        "65",
+        "48"
+      ],
+      [ "-6",
+        "6",
+        "4",
+        "55"
+    ],
+    [ "/* KIPM College */",
+      "// KIPM College",
+      "# KIPM College #",
+    " */ KIPM College /*"
+    ],
+    [   "for",
+        "switch",
+        "if",
+        "while"
+
+    ],
+    [   "True",
+        "False",
+        "Option A is correct ",
+        "none of these"
+
+    ],
+    [   "-3.4e38 to 3.4e38",
+        "-32767 to 32768",
+        "-32668 to 32667 ",
+        "-32768 to 32767"
+
+    ],
+    [   "The program does not require any function. ",
+        "The program must have at least one function.",
+        "Input data",
+        "Output data"
+
+    ],
+    [   "C compiler ",
+        "Interactive debugger",
+        "Analyzing tool",
+        "C interpreter"
+
+    ],
+    [   "The value of (a + 1) ",
+        "The current value of a",
+        "Error message",
+        "Garbage "
+
+    ],
+    [   "X is a four-digit integer.",
+        "X cannot be greater than a four-digit integer. ",
+        "X is a four-bit integer. ",
+        "None of the these "
+
+    ],
+    [   "Forever ",
+        "Never ",
+        "0",
+        "1"
+
+    ],
+    [   " theta(n) ",
+        " theta(logn) ",
+        " theta(log*n) ",
+        " theta(1) "
+
+    ],
+    [   "int ats[20]; ",
+        "int ats;",
+        "ats{20};",
+        "array ats[20]; "
+
+    ],
+    [   "func(#array); ",
+        "func(&array); ",
+        "func(*array); ",
+        "func(array[size]); "
+
+    ],
+    [   "127 ",
+        "253 ",
+        "361 ",
+        "No limits in number of arguments "
+
+    ],
+    [   "FILE *fopen(const *filename, const char *mode) ",
+        "FILE *fopen(const *filename) ",
+        "FILE *open(const *filename, const char *mode) ",
+        "FILE open(const*filename) "
+
+    ],
+    [   "text file",
+        "big text file ",
+        "binary file ",
+        "blueprint text "
+
+    ],
+  
+    [   "void * ",
+        "void ** ",
+        "Pointer of allocated memory type ",
+        "int * "
+
+    ],
+    [   " ''ptr = calloc(m, n)'' is equivalent to followingptr = malloc(m * n); ",
+        " ''ptr = calloc(m, n)'' is equivalent to following ptr = malloc(m * n); memset(ptr, 0, m * n); ",
+        " ''ptr = calloc(m, n)'' is equivalent to following ptr = malloc(m); memset(ptr, 0, m);",
+        " ''ptr = calloc(m, n)'' is equivalent to following ptr = malloc(n); memset(ptr, 0, n); "
+
+    ],
+    [   "3",
+        "26",
+        "10",
+        "21"
+
+    ],
+    [ "Character array, ary is a string",
+     "ary has no Null character at the end",
+    "String size is not mentioned",
+  "String can not contain special characters"
+]
+ 
+    
+    ]
+  }
